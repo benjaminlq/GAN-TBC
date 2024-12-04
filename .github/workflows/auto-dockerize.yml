@@ -39,7 +39,7 @@ jobs:
         echo "To add performance validation before deploy"
 
     - name: Docker Build and Push
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: lequan2902/vaegan
         username: ${{ secrets.DOCKER_USERNAME }}
